@@ -1,0 +1,51 @@
+#upload_result_string {
+    float: right;
+    display: inline;
+    font-weight: bold;
+}
+#flash-browse-buttonQueue, #div_body { margin-left: 7px; }
+.scroll {
+    display: none;
+    height: 110px;
+    width: 352px;
+    overflow: auto;
+    border: 1px solid #666;
+    background-color: #ccc;
+    padding: 8px;
+}
+.scroll_insert {
+    display: none;
+}
+.scroll_insert > div {
+    float: left;
+    margin-left: 6%;
+    font-weight: bold;
+}
+.scroll_insert > div > p {
+    margin-top: 0;
+}
+a.success_a {
+    text-decoration: none;
+}
+a.success_a img {
+    margin-bottom: -1.5%;
+}
+img.fail_img {
+    margin-bottom: -1%;
+}
+div.sentence {
+    margin-top: -1%;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+p.success, p.fail {
+    clear: both;
+}
+p.success div {
+    margin-bottom: 4%;
+}
+#_err, #writing {
+    color: #C92822;
+    font-weight: bold;
+    text-decoration: blink;
+}
